@@ -4154,7 +4154,7 @@ function! s:BufAbbreviations()
       Rabbrev rr( render
       Rabbrev rf( render file:\ 
       Rabbrev rj( render json:\ 
-      Rabbrev rp( render parrial:\ 
+      Rabbrev rp( render partial:\ 
       Rabbrev rt( render text:\ 
       Rabbrev rx( render xml:\ 
       " ))))))
