@@ -4152,11 +4152,11 @@ function! s:BufAbbreviations()
       Rabbrev coo[ cookies
       Rabbrev fl[ flash
       Rabbrev rr( render
-      Rabbrev rf( render :file\ =>\ 
-      Rabbrev rj( render :json\ =>\ 
-      Rabbrev rp( render :partial\ =>\ 
-      Rabbrev rt( render :text\ =>\ 
-      Rabbrev rx( render :xml\ =>\ 
+      Rabbrev rf( render file:\ 
+      Rabbrev rj( render json:\ 
+      Rabbrev rp( render parrial:\ 
+      Rabbrev rt( render text:\ 
+      Rabbrev rx( render xml:\ 
       " ))))))
     endif
     if buffer.type_name('view','helper')
